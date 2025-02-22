@@ -16,7 +16,7 @@ export default function AddMemoryForm() {
     const [open, setOpen] = useState(false)
 
     return (
-        <Card className="w-[40vw] bg-white ">
+        <Card className="w-[90vw] md:w-[70vw] lg:w-[40vw] bg-white ">
             <CardHeader>
                 <CardTitle>New Memory</CardTitle>
             </CardHeader>
