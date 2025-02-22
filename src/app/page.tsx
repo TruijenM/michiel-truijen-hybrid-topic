@@ -1,7 +1,11 @@
-import {Title} from "@/src/components/title";
+import Link from "next/link";
+import {Button} from "../components/ui/button";
 
-export default function Home() {
+
+export default function Page() {
     return (
-        <Title title="Michiel"/>
-    );
+        <section className="flex flex-col justify-center items-center mt-10 md:mt-20 lg:mt-32 xl:mt-36">
+           <Button> <Link href={"/newMemory"}>new memory</Link></Button>
+        </section>
+    )
 }
