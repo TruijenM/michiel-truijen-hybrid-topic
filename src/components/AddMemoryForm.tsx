@@ -9,7 +9,7 @@ import {CalendarIcon} from "lucide-react";
 import {format} from "date-fns";
 import * as React from "react";
 import {useState} from "react";
-import {Calendar} from "../components/ui/calendar"
+import {Calendar} from "@/components/ui/calendar"
 
 export default function AddMemoryForm() {
     const [date, setDate] = useState<Date|undefined>(new Date());
@@ -27,7 +27,6 @@ export default function AddMemoryForm() {
                         <Popover open={open} onOpenChange={setOpen}>
                             <PopoverTrigger asChild>
                                 <Button
-
                                     variant={"outline"}
                                     className={cn(
                                         "w-[240px] justify-start text-left font-normal",
