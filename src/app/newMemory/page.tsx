@@ -1,4 +1,4 @@
-import AddMemoryForm from "@/src/components/AddMemoryForm";
+import AddMemoryForm from "@/components/AddMemoryForm";
 
 
 export default function CardWithForm() {
